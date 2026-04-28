@@ -51,11 +51,51 @@ export default function Footer() {
               <li>
                 <a
                   className="hover:text-white"
+                  href="https://canfilltilttest.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Canthal Tilt Test
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-white"
                   href="https://bodyfatestimator.ai/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Body Fat Estimator
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-white"
+                  href="https://bodyvisualizer.ai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Body Visualizer
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-white"
+                  href="https://heightestimatorai.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Height Estimator
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-white"
+                  href="https://skoy.ai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Skoy
                 </a>
               </li>
               <li>
@@ -71,11 +111,11 @@ export default function Footer() {
               <li>
                 <a
                   className="hover:text-white"
-                  href="https://skoy.ai"
+                  href="https://bodyshapeanalyzer.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  SKOY
+                  Body Shape Analyzer
                 </a>
               </li>
             </ul>
