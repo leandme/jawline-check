@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { Suspense } from "react";
 import JawlineCheckTool from "../components/JawlineCheckTool";
 
-const title = "Jawline Check – Gonial Angle and Jawline Type Detector";
+const title = "Jawline Check – Calculate Gonial Angle from Photo";
 const description =
   "Upload a side-profile photo to estimate jawline angle and classify jawline type with AI. Get confidence scoring, landmark overlay, and interpretation table.";
 
