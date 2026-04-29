@@ -123,9 +123,10 @@ const BLOCKISH_BAND: JawlineBand = {
 const ALL_BANDS: JawlineBand[] = [BLOCKISH_BAND, ...JAWLINE_BANDS];
 
 const EXAMPLE_IMAGES: ExampleImage[] = [
-  { id: "jawline-a", label: "Example A", src: "https://bodyfatestimator.ai/examples/man-selfie.webp" },
-  { id: "jawline-b", label: "Example B", src: "https://bodyfatestimator.ai/examples/woman-selfie.webp" },
-  { id: "jawline-c", label: "Example C", src: "https://bodyfatestimator.ai/examples/man-selfie.webp" },
+  { id: "jawline-example-1", label: "Example 1", src: "/profiles/jawline-example.jpg" },
+  { id: "jawline-example-2", label: "Example 2", src: "/profiles/jawline-example-2.jpg" },
+  { id: "jawline-example-3", label: "Example 3", src: "/profiles/jawline-example-3.jpg" },
+  { id: "jawline-example-4", label: "Example 4", src: "/profiles/jawline-example-4.jpg" },
 ];
 
 const FAQ_ITEMS: FaqItem[] = [
