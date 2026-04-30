@@ -51,7 +51,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover:text-white"
-                  href="https://canfilltilttest.com"
+                  href="https://canthaltilttest.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
