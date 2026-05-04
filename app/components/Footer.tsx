@@ -1,4 +1,11 @@
+"use client";
+
+import { usePathname } from "next/navigation";
+
 export default function Footer() {
+  const pathname = usePathname();
+  const showAboutLink = pathname !== "/about";
+
   return (
     <footer className="bg-[#18181b] text-white">
       <div className="mx-auto max-w-7xl px-6 py-12">
@@ -27,11 +34,13 @@ export default function Footer() {
           <div>
             <h6 className="text-lg font-semibold text-gray-200">Site</h6>
             <ul className="mt-3 space-y-2 text-base text-gray-300">
-              <li>
-                <a className="hover:text-white" href="/about">
-                  About
-                </a>
-              </li>
+              {showAboutLink && (
+                <li>
+                  <a className="hover:text-white" href="/about">
+                    About
+                  </a>
+                </li>
+              )}
               <li>
                 <a className="hover:text-white" href="/contact">
                   Contact

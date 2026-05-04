@@ -116,7 +116,6 @@ export default function AboutPage() {
             <a href="https://ai-calorie-counter.com" className="text-primary">AI Calorie Counter</a><br />
             <a href="https://skoy.ai" className="text-primary">Skoy</a><br />
             <a href="https://bodyfatestimator.ai" className="text-primary">Body Fat Estimator</a><br />
-            <a href="https://jawlinecheck.com" className="text-primary">Jawline Check</a><br />
             <a href="https://heightestimatorai.com" className="text-primary">Height Estimator</a><br />
             <a href="https://bodyshapeanalyzer.com" className="text-primary">Body Shape Visualizer</a><br />
             <a href="https://canthaltilttest.com" className="text-primary">Canthal Tilt Test</a><br />
