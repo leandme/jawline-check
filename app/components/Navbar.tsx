@@ -1,5 +1,7 @@
 const SITE_NAME = "Jawline Check";
 const LOGO_SRC = "/favicon.ico";
+const AI_CALORIE_COUNTER_URL = "https://skoy.ai";
+const AI_CALORIE_COUNTER_TEXT = "AI Calorie Counter";
 
 export default function Navbar() {
   return (
@@ -11,6 +13,16 @@ export default function Navbar() {
         >
           <img src={LOGO_SRC} alt="Jawline Check Logo" className="w-6 h-6" />
           {SITE_NAME}
+        </a>
+      </div>
+      <div className="navbar-end">
+        <a
+          className="btn btn-ghost font-heading text-xl hover:bg-transparent focus:bg-transparent active:bg-transparent"
+          href={AI_CALORIE_COUNTER_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {AI_CALORIE_COUNTER_TEXT}
         </a>
       </div>
     </div>
